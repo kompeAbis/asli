@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            background-color: #f3f4f6;
+            color: #1f2937;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            padding: 32px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            max-width: 360px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .avatar {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 16px;
+            border: 3px solid #3b82f6;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 4px;
+            color: #111827;
+        }
+
+        .subtitle {
+            font-size: 0.875rem;
+            color: #6b7280;
+            margin-bottom: 24px;
+        }
+
+        .info-group {
+            text-align: left;
+            background-color: #f9fafb;
+            padding: 16px;
+            border-radius: 12px;
+            margin-bottom: 12px;
+        }
+
+        .label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #6b7280;
+            margin-bottom: 4px;
+        }
+
+        .value {
+            font-weight: 600;
+            color: #1f2937;
+        }
+
+        .tags {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-top: 6px;
+        }
+
+        .tag {
+            background-color: #e0e7ff;
+            color: #4338ca;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.8125rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img class="avatar" src="https://placehold.co/150x150/3b82f6/ffffff?text=Profil" alt="Foto Profil">
+        <h1>Alvaro Albar Syarifudin</h1>
+        <p class="subtitle">Mahasiswa</p>
+
+        <div class="info-group">
+            <div class="label">NIM</div>
+            <div class="value">2025081038</div>
+        </div>
+
+        <div class="info-group">
+            <div class="label">Hobi</div>
+            <div class="tags">
+                <span class="tag">Futsal</span>
+                <span class="tag">Musik</span>
+                <span class="tag">Game</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
